@@ -1,0 +1,33 @@
+.family {
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.family img{
+    max-width: 100%;
+    display: flex;
+    flex: 1 0 4em;
+    height: 100%;
+    object-fit: cover;
+    padding: 0 0.5rem;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.family img:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.family-img-container {
+    height: 35vh;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 0 4em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+}

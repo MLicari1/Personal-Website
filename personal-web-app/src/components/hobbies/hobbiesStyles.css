@@ -1,0 +1,35 @@
+.hobbies {
+    width: 100%;
+    text-align: center;
+    padding: 4rem 0;
+    background-color: whitesmoke;
+}
+
+.hobbies h1 {
+    padding: 1rem;
+}
+
+.img-container {
+    --gap:1rem;
+    --num-col:5;
+    --row-height:300px;    
+    
+    display: grid;
+    grid-template-columns: repeat(var(--num-col), 1fr);
+    margin: auto;
+    padding: 1rem 0;
+    gap: var(--gap)
+}
+
+.hobbies img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.3s;
+}
+
+.hobbies img:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
